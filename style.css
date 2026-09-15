@@ -32,7 +32,76 @@ body {
    HEADER
 ========================= */
 
+.site-header {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
 
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 112px;
+}
+
+.header-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #111827;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.burger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #1f2937;
+    border-radius: 2px;
+}
+
+.nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 112px 20px;
+    background: #ffffff;
+    border-top: 1px solid #e5e7eb;
+}
+
+.nav-toggle:checked ~ .nav-menu {
+    display: flex;
+}
+
+.nav-menu a {
+    color: #1f2937;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 7px;
+}
+
+.nav-menu a:hover {
+    background: #F1F5F9;
+    color: #111827;
+}
 
 /* =========================
    MOVIES SECTION
@@ -110,6 +179,12 @@ footer {
 ========================= */
 
 @media (max-width: 900px) {
+    .header-bar,
+    .nav-menu {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
     .movies-grid {
         grid-template-columns: repeat(2, 1fr);
     }
