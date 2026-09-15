@@ -5,7 +5,8 @@
     "year": 2010,
     "genre": "Science-Fiction",
     "rating": 8.8,
-    "director": "Christopher Nolan"
+    "director": "Christopher Nolan",
+    "description": "Un voleur s'infiltre dans les rêves pour dérober ou implanter des idées."
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "year": 2019,
     "genre": "Drame",
     "rating": 8.5,
-    "director": "Bong Joon-ho"
+    "director": "Bong Joon-ho",
+    "description": "Une famille pauvre s'immisce progressivement dans la vie d'une famille riche."
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "year": 2008,
     "genre": "Action",
     "rating": 9.0,
-    "director": "Christopher Nolan"
+    "director": "Christopher Nolan",
+    "description": "Batman affronte le Joker, un criminel qui plonge Gotham dans le chaos."
   },
   {
     "id": 4,
@@ -29,15 +32,17 @@
     "year": 1994,
     "genre": "Crime",
     "rating": 8.9,
-    "director": "Quentin Tarantino"
+    "director": "Quentin Tarantino",
+    "description": "Plusieurs histoires criminelles se croisent dans le Los Angeles de la mafia."
   },
   {
     "id": 5,
     "title": "The Grand Budapest Hotel",
     "year": 2014,
-    "genre": "Comédie",
+    "genre": "ComÃ©die",
     "rating": 8.1,
-    "director": "Wes Anderson"
+    "director": "Wes Anderson",
+    "description": "Un concierge et son jeune apprenti vivent des aventures dans un hôtel prestigieux."
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "year": 2001,
     "genre": "Animation",
     "rating": 8.6,
-    "director": "Hayao Miyazaki"
+    "director": "Hayao Miyazaki",
+    "description": "Une jeune fille découvre un monde fantastique et cherche à sauver ses parents."
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "year": 2014,
     "genre": "Science-Fiction",
     "rating": 8.7,
-    "director": "Christopher Nolan"
+    "director": "Christopher Nolan",
+    "description": "Des astronautes voyagent à travers l'espace pour trouver une nouvelle planète habitable."
   },
   {
     "id": 8,
@@ -61,15 +68,17 @@
     "year": 1972,
     "genre": "Crime",
     "rating": 9.2,
-    "director": "Francis Ford Coppola"
+    "director": "Francis Ford Coppola",
+    "description": "La famille Corleone dirige un puissant empire criminel à New York."
   },
   {
     "id": 9,
-    "title": "Amélie",
+    "title": "AmÃ©lie",
     "year": 2001,
-    "genre": "Comédie",
+    "genre": "ComÃ©die",
     "rating": 8.3,
-    "director": "Jean-Pierre Jeunet"
+    "director": "Jean-Pierre Jeunet",
+    "description": "Une jeune Parisienne décide d'améliorer discrètement la vie des personnes qui l'entourent."
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "year": 2014,
     "genre": "Drame",
     "rating": 8.5,
-    "director": "Damien Chazelle"
+    "director": "Damien Chazelle",
+    "description": "Un jeune batteur de jazz se confronte à un professeur particulièrement exigeant."
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "year": 2017,
     "genre": "Horreur",
     "rating": 7.8,
-    "director": "Jordan Peele"
+    "director": "Jordan Peele",
+    "description": "Un jeune homme découvre de mystérieux secrets lors d'une visite dans la famille de sa petite amie."
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "year": 1995,
     "genre": "Animation",
     "rating": 8.3,
-    "director": "John Lasseter"
+    "director": "John Lasseter",
+    "description": "Des jouets prennent vie lorsque leur propriétaire n'est pas là."
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "year": 2006,
     "genre": "Action",
     "rating": 6.0,
-    "director": "Justin Lin"
+    "director": "Justin Lin",
+    "description": "Un jeune pilote découvre les courses de drift clandestines dans les rues de Tokyo."
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "year": 2023,
     "genre": "Action",
     "rating": 7.1,
-    "director": "Neill Blomkamp"
+    "director": "Neill Blomkamp",
+    "description": "Un joueur passionné transforme son talent sur un simulateur de course en carrière de pilote automobile."
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "year": 2001,
     "genre": "Action",
     "rating": 6.8,
-    "director": "Rob Cohen"
+    "director": "Rob Cohen",
+    "description": "Un policier infiltré découvre le monde des courses automobiles clandestines."
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "year": 2019,
     "genre": "Drame",
     "rating": 8.1,
-    "director": "James Mangold"
+    "director": "James Mangold",
+    "description": "Ford tente de battre Ferrari lors des célèbres 24 Heures du Mans."
   },
   {
     "id": 17,
@@ -133,6 +149,7 @@
     "year": 2015,
     "genre": "Action",
     "rating": 7.1,
-    "director": "James Wan"
+    "director": "James Wan",
+    "description": "Dominic Toretto et son équipe affrontent un nouvel adversaire déterminé à se venger."
   }
 ]
