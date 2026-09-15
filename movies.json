@@ -124,7 +124,7 @@
     "title": "The Fast and the Furious: Tokyo Drift",
     "year": 2006,
     "genre": "Action",
-    "rating": 6.0,
+    "rating": 9.0,
     "director": "Justin Lin",
     "description": "Un jeune pilote apprend le drift dans les rues de Tokyo.",
     "poster": "images/tokyo-drift.jpg"
@@ -134,7 +134,7 @@
     "title": "Gran Turismo",
     "year": 2023,
     "genre": "Action",
-    "rating": 7.1,
+    "rating": 8.8,
     "director": "Neill Blomkamp",
     "description": "Un gamer devient pilote de course grâce à un jeu vidéo.",
     "poster": "images/gran-turismo.jpg"
@@ -144,7 +144,7 @@
     "title": "The Fast and the Furious",
     "year": 2001,
     "genre": "Action",
-    "rating": 6.8,
+    "rating": 9.1,
     "director": "Rob Cohen",
     "description": "Un flic infiltre un gang de street racers à Los Angeles.",
     "poster": "images/the-fast-and-the-furious.jpg"
@@ -154,7 +154,7 @@
     "title": "Ford v Ferrari",
     "year": 2019,
     "genre": "Drame",
-    "rating": 8.1,
+    "rating": 9.3,
     "director": "James Mangold",
     "description": "Ford défie Ferrari aux 24 Heures du Mans.",
     "poster": "images/ford-v-ferrari.jpg"
@@ -164,7 +164,7 @@
     "title": "Furious 7",
     "year": 2015,
     "genre": "Action",
-    "rating": 7.1,
+    "rating": 9.2,
     "director": "James Wan",
     "description": "L'équipe de Dom affronte un assassin hors de contrôle.",
     "poster": "images/furious-7.jpg"
