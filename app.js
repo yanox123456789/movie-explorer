@@ -71,3 +71,4 @@ function setupSearch() {
 
 loadMovies();
 setupSearch();
+
