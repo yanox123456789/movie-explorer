@@ -14,6 +14,7 @@ function displayMovies(moviesToDisplay) {
   container.innerHTML = moviesToDisplay
     .map(movie => `
       <article class="movie-card">
+        ${movie.poster ? `<img class="movie-poster" src="${movie.poster}" alt="Affiche de ${movie.title}">` : ""}
         <div class="movie-rating">
           ⭐ ${movie.rating}
         </div>
@@ -27,13 +28,17 @@ function displayMovies(moviesToDisplay) {
         <p class="movie-director">
           ${movie.director}
         </p>
+
+        ${movie.description ? `<p class="movie-description">${movie.description}</p>` : ""}
       </article>
     `)
     .join("");
 
-    
-  document.querySelector("#movie-result").textContent =
-    `${moviesToDisplay.length} film${moviesToDisplay.length > 1 ? "s" : ""}`;
+  const result = document.querySelector("#movie-result");
+  if (result) {
+    result.textContent =
+      `${moviesToDisplay.length} film${moviesToDisplay.length > 1 ? "s" : ""}`;
+  }
 }
 
 function displayStats(moviesToDisplay) {
@@ -48,4 +53,20 @@ function displayStats(moviesToDisplay) {
 
 }
 
+function setupSearch() {
+  const search = document.querySelector("#search");
+  if (!search) {
+    return;
+  }
+
+  search.addEventListener("input", () => {
+    const query = search.value.trim().toLowerCase();
+    const filtered = movies.filter(movie =>
+      movie.title.toLowerCase().includes(query)
+    );
+    displayMovies(filtered);
+  });
+}
+
 loadMovies();
+setupSearch();
