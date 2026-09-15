@@ -94,5 +94,45 @@
     "genre": "Animation",
     "rating": 8.3,
     "director": "John Lasseter"
+  },
+  {
+    "id": 13,
+    "title": "The Fast and the Furious: Tokyo Drift",
+    "year": 2006,
+    "genre": "Action",
+    "rating": 6.0,
+    "director": "Justin Lin"
+  },
+  {
+    "id": 14,
+    "title": "Gran Turismo",
+    "year": 2023,
+    "genre": "Action",
+    "rating": 7.1,
+    "director": "Neill Blomkamp"
+  },
+  {
+    "id": 15,
+    "title": "The Fast and the Furious",
+    "year": 2001,
+    "genre": "Action",
+    "rating": 6.8,
+    "director": "Rob Cohen"
+  },
+  {
+    "id": 16,
+    "title": "Ford v Ferrari",
+    "year": 2019,
+    "genre": "Drame",
+    "rating": 8.1,
+    "director": "James Mangold"
+  },
+  {
+    "id": 17,
+    "title": "Furious 7",
+    "year": 2015,
+    "genre": "Action",
+    "rating": 7.1,
+    "director": "James Wan"
   }
 ]
