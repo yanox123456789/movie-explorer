@@ -1,10 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-  <link rel="stylesheet" href="style.css"></style>
+  <meta charset="UTF-8">
+  <title>Absolument pas letterboxd</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
+<header class="site-header" id="accueil">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <div class="header-bar">
+    <span class="header-brand">Movie Explorer</span>
+    <label for="nav-toggle" class="burger" aria-label="Ouvrir le menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  <nav class="nav-menu">
+    <a href="#accueil">Accueil</a>
+    <a href="#films">Films</a>
+    <a href="#a-propos">À propos</a>
+  </nav>
+</header>
     <h1 class="titre">Absolument pas letterboxd</h1>
     <p class="slogan">Explorez, découvrez, regardez — sans le snobisme.</p>
 
-    <section class="movies-section">
+    <section class="movies-section" id="films">
       <div class="section-header">
         <h2>Les films</h2>
       </div>
