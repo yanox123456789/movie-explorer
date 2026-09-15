@@ -52,8 +52,6 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
-    margin-left: 112px;
-    margin-right: 112px;
 }
 
 
