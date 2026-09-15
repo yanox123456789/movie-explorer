@@ -14,6 +14,11 @@ body {
     line-height: 1.6;
 }
 
+.titre{
+    margin-top: 64px;
+    font-size: xx-large;
+    text-align: center;
+    }
 
 /* =========================
    HEADER
