@@ -21,6 +21,13 @@ body {
     text-align: center;
     }
 
+.slogan {
+    text-align: center;
+    font-size: 1.15rem;
+    color: #6B7280;
+    margin-bottom: 30px;
+}
+
 /* =========================
    HEADER
 ========================= */
