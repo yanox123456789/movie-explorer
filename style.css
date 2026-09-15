@@ -110,6 +110,8 @@ body {
 .movies-section h2 {
     font-size: 1.8rem;
     margin-bottom: 25px;
+    margin-left: 112px;
+    margin-right: 112px;
 }
 
 
@@ -183,6 +185,12 @@ footer {
     .nav-menu {
         padding-left: 24px;
         padding-right: 24px;
+    }
+
+    .movies-section h2,
+    .movies-grid {
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     .movies-grid {
