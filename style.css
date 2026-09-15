@@ -114,6 +114,64 @@ body {
     margin-right: 112px;
 }
 
+.section-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-left: 112px;
+    margin-right: 112px;
+    margin-bottom: 25px;
+}
+
+.section-header h2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.movie-search {
+    flex: 1;
+    min-width: 220px;
+    max-width: 360px;
+    padding: 10px 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    font-size: 0.95rem;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+.movie-search::placeholder {
+    color: #6B7280;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about-section {
+    margin: 50px 112px 20px;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+    color: #111827;
+}
+
+.about-section p {
+    color: #6B7280;
+    margin-bottom: 12px;
+}
+
 
 /* =========================
    MOVIES GRID
@@ -153,6 +211,21 @@ body {
     color: #6B7280;
 }
 
+.movie-poster {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 7px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.movie-description {
+    margin-top: 10px;
+    line-height: 1.45;
+}
+
 .movie-rating {
     display: inline-block;
     margin-top: 15px;
@@ -188,7 +261,13 @@ footer {
     }
 
     .movies-section h2,
+    .section-header,
     .movies-grid {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .about-section {
         margin-left: 24px;
         margin-right: 24px;
     }
