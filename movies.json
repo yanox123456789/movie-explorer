@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Science-Fiction",
+    "rating": 8.8,
+    "director": "Jim Jarmusch"
+  },
+  {
+    "id": 2,
+    "title": "Parasite",
+    "year": 2019,
+    "genre": "Drame",
+    "rating": 8.5,
+    "director": "Bong Joon-ho"
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": "Action",
+    "rating": 9.0,
+    "director": "Jim Jarmusch"
+  },
+  {
+    "id": 4,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": "Crime",
+    "rating": 8.9,
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 5,
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genre": "Comédie",
+    "rating": 8.1,
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 6,
+    "title": "Spirited Away",
+    "year": 2001,
+    "genre": "Animation",
+    "rating": 8.6,
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 7,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": "Science-Fiction",
+    "rating": 8.7,
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 8,
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": "Crime",
+    "rating": 9.2,
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": 9,
+    "title": "Amélie",
+    "year": 2001,
+    "genre": "Comédie",
+    "rating": 8.3,
+    "director": "Jean-Pierre Jeunet"
+  },
+  {
+    "id": 10,
+    "title": "Whiplash",
+    "year": 2014,
+    "genre": "Drame",
+    "rating": 8.5,
+    "director": "Damien Chazelle"
+  },
+  {
+    "id": 11,
+    "title": "Get Out",
+    "year": 2017,
+    "genre": "Horreur",
+    "rating": 7.8,
+    "director": "Jordan Peele"
+  },
+  {
+    "id": 12,
+    "title": "Toy Story",
+    "year": 1995,
+    "genre": "Animation",
+    "rating": 8.3,
+    "director": "John Lasseter"
+  }
+]
