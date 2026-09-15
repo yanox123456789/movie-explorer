@@ -1,3 +1,4 @@
+// Catalogue
 let movies = [];
 
 async function loadMovies() {
